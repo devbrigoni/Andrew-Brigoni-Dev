@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrew Brigoni | Desenvolvedor Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Hero -->
+  <section class="relative text-center py-32 text-white bg-cover bg-center" style="background-image: url('fundo-dev.jpeg')">
+    <div class="absolute inset-0 bg-black opacity-70"></div>
+    <div class="relative z-10 px-4">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4 text-cyan-300">Olá, eu sou Andrew Brigoni</h2>
+      <p class="text-xl md:text-2xl text-gray-100">Desenvolvedor Web focado em performance e experiência digital.</p>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-20 px-4 max-w-4xl mx-auto bg-black">
+    <h3 class="text-3xl font-semibold mb-4 text-cyan-300">Sobre mim</h3>
+    <p class="text-gray-300 leading-relaxed text-lg">
+      Trabalho com desenvolvimento web focando em entregar interfaces elegantes, acessíveis e eficientes. Tenho paixão por resolver problemas com código limpo, responsivo e funcional. Meu objetivo é sempre criar experiências digitais marcantes.
+    </p>
+  </section>
+
+  <!-- Projetos -->
+  <!-- Projetos -->
+<section id="projetos" class="py-20 px-4 bg-gray-950">
+  <h3 class="text-3xl font-semibold text-center mb-8 text-cyan-300">Projetos</h3>
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+    <!-- Thiago Santos Personal -->
+    <div class="bg-black rounded-xl shadow-lg p-6 hover:shadow-cyan-500/30 transition">
+      <h4 class="text-xl font-bold mb-2">Thiago Santos | Treinamento Personalizado</h4>
+      <p class="text-gray-400 text-sm">
+        Site desenvolvido para um personal trainer, com foco em treinos personalizados e chamadas claras para ação.
+      </p>
+      <a href="https://devbrigoni.github.io/Thiago-Santos-Personal/" target="_blank" class="text-cyan-400 text-sm mt-2 inline-block hover:underline">
+        Ver projeto
+      </a>
+    </div>
+
+    <!-- La Tavola Ristorante -->
+    <div class="bg-black rounded-xl shadow-lg p-6 hover:shadow-cyan-500/30 transition">
+      <h4 class="text-xl font-bold mb-2">La Tavola Ristorante</h4>
+      <p class="text-gray-400 text-sm">
+        Site elegante para restaurante italiano fictício, com menu, reserva e visual aconchegante.
+      </p>
+      <a href="https://devbrigoni.github.io/La-Tavola-Ristorante/" target="_blank" class="text-cyan-400 text-sm mt-2 inline-block hover:underline">
+        Ver projeto
+      </a>
+    </div>
+
+    <!-- Black Blade Barber -->
+    <div class="bg-black rounded-xl shadow-lg p-6 hover:shadow-cyan-500/30 transition">
+      <h4 class="text-xl font-bold mb-2">Black Blade Barber</h4>
+      <p class="text-gray-400 text-sm">
+        Barbearia com visual moderno, serviços destacados e agendamento direto via WhatsApp.
+      </p>
+      <a href="https://devbrigoni.github.io/blackbladbarber/" target="_blank" class="text-cyan-400 text-sm mt-2 inline-block hover:underline">
+        Ver projeto
+      </a>
+    </div>
+
+  </div>
+</section>
+  <!-- Contato -->
+  <section id="contato" class="py-20 px-4 max-w-2xl mx-auto bg-black">
+    <h3 class="text-3xl font-semibold mb-6 text-center text-cyan-300">Entre em contato</h3>
+    <p class="text-center mb-8 text-gray-400">Preencha o formulário abaixo e retornarei o mais rápido possível.</p>
+    
+    <form action="https://formspree.io/f/SEU_ID" method="POST" class="space-y-6 bg-gray-950 p-6 rounded-xl shadow-md">
+      <div>
+        <label for="nome" class="block font-medium text-gray-200">Nome</label>
+        <input type="text" id="nome" name="nome" required class="w-full p-2 border border-gray-700 bg-black text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400">
+      </div>
+
+      <div>
+        <label for="email" class="block font-medium text-gray-200">Email</label>
+        <input type="email" id="email" name="_replyto" required class="w-full p-2 border border-gray-700 bg-black text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400">
+      </div>
+
+      <div>
+        <label for="mensagem" class="block font-medium text-gray-200">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required class="w-full p-2 border border-gray-700 bg-black text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400"></textarea>
+      </div>
+
+      <button type="submit" class="bg-cyan-500 text-white px-6 py-2 rounded-lg hover:bg-cyan-600 transition">
+        Enviar Mensagem
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 border-t border-gray-800">
+    <p class="text-gray-500 text-sm">&copy; 2025 Andrew Brigoni. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html
